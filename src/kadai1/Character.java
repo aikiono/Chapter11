@@ -10,7 +10,7 @@ public class Character {
 
     public void attack(Matango m){
         System.out.println(this.name+"の攻撃！！");
-        m.hp -= 5;
-        System.out.println("敵に５ポイントのダメージをあたえた！");
+        m.hp -= 10;
+        System.out.println("敵に10のダメージをあたえた！");
     }
 }
